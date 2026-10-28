@@ -1,16 +1,13 @@
-# Revealer Icons
+# Persistence Files
 
-icon pack for cheat revealer
+Assets downloaded by the Persistence Lua script.
 
-raw base:
+- `multicolored/`: Cheat Revealer icons, including the reserved Persistence icon.
+- `voice-icons/`: icons used by the voice listener.
+- `sounds/weapon-sounds.zip`: Old Weapon Sound archive, copied without modification.
 
-```text
-https://raw.githubusercontent.com/<github-user>/revealer-icons/main/multicolored
-```
+Raw base: https://raw.githubusercontent.com/grrreyn88/persistence-files/main/
 
-lua:
+The Persistence icon is download-only until shared identification is implemented.
 
-```lua
-icon_base_url = 'https://raw.githubusercontent.com/<github-user>/revealer-icons/main/multicolored'
-```
-
+Sources: existing grrreyn88/revealer-icons pack, tickcount/.p2c-icons, ghxszeff/nl-fonts (weapon-sounds.zip).
